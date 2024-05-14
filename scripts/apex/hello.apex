@@ -5,4 +5,6 @@
 //   GROUP` BY LeadSource
 // ];
 
-WarehouseCalloutService.getExternalEquipments();
+final String cronExpression = '0 0 1 * * ?';
+WarehouseSyncSchedule scheduledJob = new WarehouseSyncSchedule();
+System.schedule('WarehouseSyncScheduleJob', cronExpression, scheduledJob);
