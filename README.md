@@ -1,6 +1,6 @@
-# Salesforce DX Project: Next Steps
+# How We Roll - Backend
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+Salesforce DX project for the Apex Specialist. Here are some documentation resources to get you started.
 
 ## How Do You Plan to Deploy Your Changes?
 
