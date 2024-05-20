@@ -1,4 +1,4 @@
-public with sharing class WarehouseCalloutService {
+public with sharing class WarehouseCalloutService implements Queueable {
   private static final String baseApiUrl = 'https://th-superbadge-apex.herokuapp.com';
 
   @future(callout=true)
@@ -32,5 +32,9 @@ public with sharing class WarehouseCalloutService {
         upsert updatedEquipments;
       }
     }
+  }
+
+  public void execute(QueueableContext context) {
+    getExternalEquipments();
   }
 }
