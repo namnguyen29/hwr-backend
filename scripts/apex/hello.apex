@@ -5,6 +5,6 @@
 //   GROUP` BY LeadSource
 // ];
 
-final String cronExpression = '0 0 1 * * ?';
-WarehouseSyncSchedule scheduledJob = new WarehouseSyncSchedule();
-System.schedule('WarehouseSyncScheduleJob', cronExpression, scheduledJob);
+// final String cronExpression = '0 0 1 * * ?';
+// WarehouseSyncSchedule scheduledJob = new WarehouseSyncSchedule();
+// System.schedule('WarehouseSyncScheduleJob', cronExpression, scheduledJob);
